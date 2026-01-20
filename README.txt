@@ -1,20 +1,61 @@
-NEWS24 Combined PHP Project
+# News24 Web Project
 
-Run with XAMPP/Laragon:
-1) Put folder into htdocs (e.g., htdocs/your-project)
-2) Import php/sql/schema.sql into MySQL (phpMyAdmin)
-3) Open: http://localhost/your-project/index.php
+## 📌 Project Overview
+This project was originally developed as a group assignment for a university course focused on HTML and CSS.
+The initial version consisted of static pages that implement the layout, navigation, and visual design of a news website.
 
-Main pages converted to PHP:
-- /index.php
-- /kontakt/kontakt.php
-- /user/kycu.php
-- /user/regjistrohu.php
-- /stafi/staff.php
-- /lajmet/teknologji.php, /lajmet/fun.php, /lajmet/sport.php
+After the completion of the HTML/CSS course, the project was extended individually by adding PHP functionality as part of another university subject.
+The PHP layer transforms the project from a static website into a dynamic web application with database interaction, user sessions, form handling, and server-side logic.
 
-AJAX:
-- /php/ajax_demo.php
+---
 
-Web API:
-- /php/api/webapi.php
+## 🛠 Technologies Used
+- **HTML5** – page structure
+- **CSS3** – layout, styling, responsive design
+- **JavaScript** – client-side interactivity and AJAX
+- **PHP** – server-side logic, sessions, reusable components
+- **MySQL** – database management
+- **jQuery** – DOM manipulation (legacy usage)
+- **Font Awesome** – icons
+- **XAMPP – local development environment (Apache + MySQL)
+
+---
+
+## 📂 Project Structure
+The project is organized into multiple sections and folders for clarity and scalability:
+
+- `index.php` – Homepage
+- `lajmet/`
+  - `sport.php` – Sports news
+  - `teknologji.php` – Technology news
+  - `fun.php` – Entertainment/Fun news
+- `user/`
+  - `kycu.php` – Login page
+  - `regjistrohu.php` – Registration page
+- `stafi/` – Staff information
+- `kontakt/` – Contact page
+- `includes/` – Reusable components (e.g. navbar)
+- `common.js` – Shared JavaScript functions
+- `style.css` – Global styles
+- Additional CSS files for specific pages
+
+---
+
+## ✨ Features
+- Multi-page news website layout
+- Navigation bar with dropdown menus
+- Category-based news sections (Sport, Technology, Fun)
+- Reusable navbar using PHP includes
+- Session handling with PHP
+- Login and registration pop-up windows
+- Responsive layout and modern UI elements
+
+---
+
+## Authors
+- HTML & CSS: Group project (university assignment)
+- PHP & Database Integration: Individual extension (university assignment)
+
+## Notes
+- The project is intended for educational purposes only
+- Designed to run on XAMPP (Apache + MySQL) in a local environment
