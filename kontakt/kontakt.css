@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    margin:0;
+    padding:0;
+    color:purple;
+    
+
+}
+.box{
+    margin-top:50px;
+    margin-right:0px;
+    margin-bottom:30px;
+    margin-left:25px;
+    padding:10px 50px;
+    width:90%;
+    border:1px solid black;
+    border-radius: 25px;
+    
+}
+.box .header{
+    padding:10px;
+    font-weight: bold;
+    text-indent: 50px;
+    letter-spacing: 2px;
+}
+p{
+    font-family:"Quattrocento",serif;
+    justify-content: space-around;
+    display:left;
+    font-size: 20px;
+    padding:10px;
+    margin-top:5px;
+    margin-left:20px;
+    letter-spacing: 2px;
+    
+}
+i:hover{
+    color:red;
+    font-size:25px;
+}
+.box .kontakt{
+    color:red;
+}

@@ -1,0 +1,1 @@
+<?php header('Location: /stafi/staff.php'); exit; ?>

@@ -1,0 +1,27 @@
+CACHE MANIFEST
+
+
+CACHE:
+user/kycu.html
+user/kycu.css
+user/regjistrohu.css
+user/regjistrohu.html
+index.html
+lajmet/fun.html
+lajmet/sport.html
+lajmet/teknologji.html
+lajmet/teknologji.css
+kontakt/kontakt.html
+kontakt/kontakt.css
+staff.html
+style.css
+kerkesat-projekt.pdf
+
+javascript.js
+
+FALLBACK:
+
+/ /offline.html
+
+NETWORK:
+*

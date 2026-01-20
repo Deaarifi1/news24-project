@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+*{
+    margin:auto;
+    width:auto;
+    height:auto;
+    font-family: 'Cuprum', sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family:'cuprum', sans-serif;
+    background:azure;
+}
+
+.kycu{
+    width:300px;
+    padding:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background: #CCCCFF;
+    text-align:center;
+}
+.kycu h1{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.kycu input[type="text"],.kycu input[type="password"]{
+    border:0;
+    background:none;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    width:200px;
+    border: 2px solid black;
+    padding:14px 10px;
+    color:black;
+    outline:none;
+    border-radius: 24px;
+    transition:0.50s;
+}
+.kycu input[type="text"]:focus, .kycu input[type="password"]:focus{
+    width:280px;
+    border-color:#2ecc71;
+}
+.kycu input[type="submit"]{
+    border:0;
+    background:none;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border: 2px solid #2ecc71;
+    padding:14px 40px;
+    color:black;
+    outline:none;
+    border-radius: 24px;
+    transition:0.50s;
+    cursor:pointer;
+}
+.kycu input[type="submit"]:hover{
+    background:#2ecc71;
+}
+.btn-toggle{
+display:flex;
+color:black;
+width:150px;
+justify-content: space-around;
+border-radius:24px;
+position:relative;
+top:20px;
+transition:0.50s;
+}
+body.dark-mode{
+    background-color:darkslategrey;
+}
+.kycu .socialmedia{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    top:150px;
+}
+.kycu .socialmedia .item{
+    width:30px;
+    height:30px;
+    border:2px solid black;
+    border-radius:20px;
+    margin:20px 5px;
+    text-align:center;
+    line-height:50%;
+    cursor:pointer;
+    color:black;
+    transition:all 0.5s ease;
+    display:flex;
+    top:50px;
+}
